@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+seedvc_env/
+.venv/
+venv/
+env/
+
+# Seed-VC repository / downloaded models
+seed-vc/
+
+# Large audio / video files
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.opus
+*.aac
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Dataset and generated data
+data/sep28k/
+sep28k/
+
+# Temporary files
+*_tmp.wav
+tmp/
+temp/
+
+# Logs
+*.log
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / environment
+.env
+.env.*
+!.env.example

@@ -14,7 +14,7 @@ from transformers import HubertModel
 
 DATA_DIR = r".\data\sep28k"
 AUDIO_DIR = os.path.join(DATA_DIR, "audio")
-CHECKPOINT = os.path.join(DATA_DIR, "hubert_weighted.pt")
+CHECKPOINT = os.path.join(DATA_DIR, "hubert_baseline.pt")
 TEST_CSV = os.path.join(DATA_DIR, "test_audio.csv")
 
 LABELS = [
